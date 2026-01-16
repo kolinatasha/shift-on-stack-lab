@@ -86,10 +86,20 @@ make openstack-down
 
 ## Documentation
 
+### Core Documentation
 - [Runbook](docs/RUNBOOK.md) - Step-by-step operational procedures
 - [Troubleshooting](docs/TROUBLESHOOTING.md) - Common issues and solutions
 - [Failure Matrix](docs/FAILURE-MATRIX.md) - Known failure scenarios and reproduction
 - [Known Issues](docs/KNOWN-ISSUES.md) - Tracked issues and workarounds
+
+### Quick Start Guides
+- [Quick Reference](QUICK-REFERENCE.md) - Common commands and operations
+- [Deployment Checklist](DEPLOYMENT-CHECKLIST.md) - Step-by-step deployment guide
+
+### Project Information
+- [Project Summary](PROJECT-SUMMARY.md) - Implementation details and architecture
+- [Project Statistics](PROJECT-STATS.md) - Metrics and achievements
+- [Contributing](CONTRIBUTING.md) - Contribution guidelines
 
 ## Metrics Tracked
 
