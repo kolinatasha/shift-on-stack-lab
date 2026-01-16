@@ -9,6 +9,24 @@ A reproducible lab environment for deploying OpenShift on OpenStack using MicroS
 - Track installation metrics and failure patterns
 - Document troubleshooting procedures and known issues
 
+## Getting Started
+
+### From Windows
+You're here! The project is complete and pushed to GitHub.
+
+**Next steps:** See [WINDOWS-NEXT-STEPS.md](WINDOWS-NEXT-STEPS.md)
+
+### From Ubuntu
+Run the automated deployment:
+
+```bash
+git clone https://github.com/kolinatasha/shift-on-stack-lab.git
+cd shift-on-stack-lab
+bash hack/full_deployment.sh
+```
+
+**Setup help:** See [UBUNTU-SETUP.md](UBUNTU-SETUP.md)
+
 ## Prerequisites
 
 - Ubuntu 20.04+ (recommended for MicroStack)
@@ -19,6 +37,20 @@ A reproducible lab environment for deploying OpenShift on OpenStack using MicroS
 
 ## Quick Start
 
+### Automated Deployment (Recommended)
+```bash
+# One command does everything!
+git clone https://github.com/kolinatasha/shift-on-stack-lab.git
+cd shift-on-stack-lab
+bash hack/full_deployment.sh
+```
+
+This runs the complete workflow: bootstrap → deploy → validate → test (10 runs) → report
+
+**Time:** 2-3 hours (fully automated)  
+**Result:** Complete metrics report with success rates
+
+### Manual Step-by-Step
 ```bash
 # 1. Clone the repository
 git clone https://github.com/kolinatasha/shift-on-stack-lab.git
