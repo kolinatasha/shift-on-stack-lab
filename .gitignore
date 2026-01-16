@@ -1,0 +1,34 @@
+# Artifacts
+artifacts/
+*.log
+
+# Secrets
+pull-secret.txt
+*.pem
+*.key
+auth.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# OpenStack
+.openstack/
+clouds.yaml
+
+# OpenShift
+install-config.yaml.bak
+terraform.tfstate*
+.terraform/
