@@ -1,5 +1,6 @@
 # Artifacts
-artifacts/
+artifacts/*
+!artifacts/README.md
 *.log
 
 # Secrets
